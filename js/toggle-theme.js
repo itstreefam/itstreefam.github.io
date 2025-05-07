@@ -7,6 +7,6 @@ document.getElementById('btnSwitch').addEventListener('click', () => {
 
 // Apply the theme from local storage when the document loads
 document.addEventListener('DOMContentLoaded', () => {
-    const savedTheme = localStorage.getItem('theme') || 'dark'; // Default to dark theme if none is stored
+    const savedTheme = localStorage.getItem('theme') || 'light'; // Default to dark theme if none is stored
     document.documentElement.setAttribute('data-bs-theme', savedTheme);
 });
